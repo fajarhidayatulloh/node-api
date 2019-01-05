@@ -1,0 +1,24 @@
+{
+  "name": "fajarapi",
+  "version": "1.0.0",
+  "description": "fajar api using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Fajar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9",
+    "pm2": "^3.2.4",
+    "winston": "^3.1.0"
+  }
+}
