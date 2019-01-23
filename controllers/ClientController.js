@@ -1,7 +1,7 @@
 const express = require('express');
 let krouter = express.Router(), 
 logger = require('winston'),
-bcrypt = require('bcrypt'), 
+bcrypt = require('bcryptjs'), 
 db= require('./../db');
 
 krouter.get('/', (req,res) =>{

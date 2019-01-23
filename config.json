@@ -1,0 +1,5 @@
+{
+  "secret": "K4mpR3TC3b0n6",
+  "audience": "nodejs-jwt-auth",
+  "issuer": "http://localhost:5000"
+}

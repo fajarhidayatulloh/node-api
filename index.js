@@ -10,6 +10,7 @@ let helmet = require("helmet"),
     logger = require("winston"),
     jwt = require("jsonwebtoken"),
     users = require("./controllers/ClientController");
+    auth = require('./controllers/AuthController');
 
 app.locals.title = 'Fajar';
 app.locals.email = 'fajarrhid@gmail.com';
@@ -34,6 +35,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.use("/users",users);
+app.use("/auth",auth);
 
 /** app listen */
 app.listen(5000, () => logger.info('Fajar api on port 5000'));
