@@ -36,6 +36,7 @@ app.get('/', (req, res, next) => {
 
 app.use("/users",users);
 app.use("/auth",auth);
+app.use(express.static('public'));
 
 /** app listen */
 app.listen(5000, () => logger.info('Fajar api on port 5000'));

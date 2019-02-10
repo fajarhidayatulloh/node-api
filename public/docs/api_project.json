@@ -1,0 +1,1 @@
+{  "name": "API DOCUMENTATION",  "version": "1.0.0",  "description": "fajar api using nodejs",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2019-02-10T12:35:01.298Z",    "url": "http://apidocjs.com",    "version": "0.17.7"  }}
