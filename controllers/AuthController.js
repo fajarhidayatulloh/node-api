@@ -27,7 +27,8 @@ auth.post('/login', function(req, res) {
         	});
         
         if (!user) 
-        	return  res.status(404).send({"status":"false",
+        	return  res.status(404).send({
+                "status":"false",
         		"status_code":404,
         		"message":"User not found!"
         	});
