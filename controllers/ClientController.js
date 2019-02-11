@@ -51,7 +51,7 @@ krouter.get('/profile/:id',verifyToken,(req, res) => {
                 "message":"Unauthorize"
             });
         } else {
-            let sql = 'SELECT * FROM users WHERE id= ?';
+            let sql = 'SELECT name,email FROM users WHERE id= ?';
             let id = req.params.id;
             db.query(sql, id, (err,result) => {
                 if(err) throw err
